@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .cont{
+            background-color: greenyellow;
+            margin:auto;
+            padding:auto;
+        }
+        @media(max-width: 600px){
+            .cont{
+                width: 100%;
+                background-color: rgb(97, 28, 66);
+                color:antiquewhite;
+            }
+        }
+        @media(min-width:601px) and (max-width: 1200px){
+            .cont{
+                width: 100%;
+                background-color: rgb(221, 48, 48);
+                color:antiquewhite;
+            }
+        }
+        @media(min-width: 1201px){
+            .cont{
+                width: 100%;
+                background-color: rgb(196, 219, 93);
+                color:antiquewhite;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="cont">This is a sample site for movie database</h1>
+    <p>Good will(2003),Big Fish(2001),Shotgun Wedding(2023)</p>
+    
+</body>
+</html>

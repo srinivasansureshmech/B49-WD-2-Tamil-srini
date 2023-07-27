@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "Live Preview",
+			"workspacePath": "f:\\Documents\\Guvi\\B49 WD 2 Tamil srini",
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"label": "Live Preview: Run Server"
+		}
+	]
+}
